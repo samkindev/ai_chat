@@ -5,7 +5,7 @@ const deps = require("./package.json").dependencies;
 
 module.exports = (_, argv) => ({
   output: {
-    publicPath: "http://localhost:8084/",
+    publicPath: "https://chat-ai-12321.netlify.app",
   },
 
   resolve: {
